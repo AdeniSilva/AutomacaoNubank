@@ -9,5 +9,6 @@ describe('Acessar site do Nubank', () => {
       cy.get('#emailConfirmation').type('leticia-dasilva86@nhrtaxiaereo.com')
       cy.get('.chakra-checkbox__control').click()
       cy.get('.css-15rwwo > .chakra-button').click()
+      cy.screenshot()
     });
   });       
